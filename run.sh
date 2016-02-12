@@ -1,0 +1,2 @@
+#!/bin/sh
+java -cp bin:lib/jsoup-1.8.3.jar:lib/core-renderer.jar:lib/itext-2.1.7.jar:lib/jaxen-1.1.1.jar:lib/jtidy-r938.jar:lib/log4j-1.2.16.jar:lib/shani-parser-v1.4.17.jar:lib/xml-apis.jar:lib/yahp-internal.jar:lib/yahp.jar com.asu.gios.WebPageValidator https://schoolofsustainability.asu.edu/sitemap.xml https://sustainability.asu.edu/sitemap.xml
